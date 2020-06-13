@@ -92,6 +92,9 @@
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Int32">[Out_Result]</OutArgument>
               </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[In_value1-In_value2]</InArgument>
+              </Assign.Value>
             </Assign>
           </Sequence>
         </FlowStep>
